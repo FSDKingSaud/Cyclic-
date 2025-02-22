@@ -1,0 +1,25 @@
+{
+  "name": "event listenser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node eventListener.js",
+    "dev": "nodemon eventListener.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.10.1",
+    "pm2": "^5.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
